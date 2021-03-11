@@ -40,7 +40,7 @@ results in a file matchDetails.tsv.
 
 ----------------------------------------------------------------------------------------------------------------
 
-For each player across all matches (using the player page like https://www.espncricinfo.com/newzealand/content/player/506612.html)following is extracted:
+For each player across all matches (using the player page like https://www.espncricinfo.com/newzealand/content/player/506612.html) following is extracted:
 1. Full name of player.
 2. Date and place of birth.
 3. Current age.
