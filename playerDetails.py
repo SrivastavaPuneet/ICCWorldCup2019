@@ -1,9 +1,3 @@
-# AMPBA 2021 Winter
-# Data Collection Assignment - Group 27
-# Puneet Srivastava - 12020026
-# Kaivan Pervez Lilaoonwala -  12020027
-# Aswin Narayanan - 12020030
-
 # importing revant libraries
 import pandas as pd
 import numpy as np
@@ -145,6 +139,4 @@ def hyperlinkEncoding(link, encoding):
 df['Picture of the Player'] = df.apply(lambda x: hyperlinkEncoding(
     x['Picture of the Player'], (x['Player'])), axis=1)
 
-df.to_csv('Group27_playerDetails.tsv', sep='\t', index=False)
-
-print("That's that!!")
+df.to_csv('playerDetails.tsv', sep='\t', index=False)
