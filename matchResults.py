@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
-# Data Collection Assignment - Group 27
-# Puneet Srivastava - 12020026
-# Kaivan Pervez Lilaoonwala -  12020027
-# Aswin Narayanan - 12020030
-
-
 # importing revant libraries
 import pandas as pd
 import numpy as np
@@ -150,4 +138,4 @@ for index, row in df.iterrows():
 
 
 # writing the dataframe in a tsv file
-df.to_csv('Group27_matchResults.tsv', sep='\t', index=False)
+df.to_csv('matchResults.tsv', sep='\t', index=False)
