@@ -35,6 +35,7 @@ Using each match's scorecard link like https://www.espncricinfo.com/series/icc-c
 10. who was the match referee
 
 results in a file matchDetails.tsv. 
+
 .py file as matchDetails.py. 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -54,4 +55,5 @@ For each player across all matches (using the player page like https://www.espnc
 11. Country of the player.
 
 results in a file playerDetails.tsv. 
+
 .py file as playerDetails.py. 
